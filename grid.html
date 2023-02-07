@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr;
+            /* grid-template-columns: 10% 20% 70%; */
+            /* grid-template-columns: repeat(4, 200px); */
+            /* grid-template-columns: repeat(4, 1fr) 100px; */
+            /* grid-template-columns: repeat(4, 1fr) 2fr; */
+            /* justify-items: end; */
+            /* justify-items: center; */
+        }
+      
+        .col{
+            border: 1px solid red;
+            background-color: skyblue;
+        }
+        /* @media must have to put below all the css style */
+        @media screen and (max-width:300px){
+            .col{
+            border: 1px solid rgb(0, 0, 0);
+            background-color: rgb(36, 230, 194);
+        } 
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="col">
+            <img src="./icons/fb.png" alt="">
+            gdgsdgs
+        </div>
+        <div class="col">ewtwetwe</div>
+        <div class="col">ewtwetwe</div>
+        <div class="col">ewtwetwe</div>
+        <div class="col">ewtwetwe</div>
+        <div class="col">ewtwetwe</div>
+        <div class="col">ewtwetwe</div>
+        <div class="col">ewtwetwe</div>
+        <div class="col">ewtwetwe</div>
+        <div class="col">ewtwetwe</div>
+        <div class="col">ewtwetwe</div>
+        <div class="col">ewtwetwe</div>
+        <div class="col">ewtwetwe</div>
+        <div class="col">ewtwetwe</div>
+        <div class="col">ewtwetwe</div>
+       
+        
+    </div>
+</body>
+</html>
